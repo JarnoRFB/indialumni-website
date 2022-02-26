@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -79,15 +85,47 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            <FontAwesomeIcon icon="coffee" />
+
+            <div className="navbar-end">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://www.facebook.com/indialumni/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <FontAwesomeIcon icon={faFacebook} />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.instagram.com/indialumni.daad/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.linkedin.com/in/daad-indialumni-netzwerk-e-v-b52436229/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.youtube.com/channel/UCfxmuyg9yJy6LKumWPVrQ-Q/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <FontAwesomeIcon icon={faYoutube} />
                 </span>
               </a>
             </div>

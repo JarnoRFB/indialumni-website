@@ -5,12 +5,10 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Mission
+  image: https://indialumni.de/wp-content/uploads/2020/02/1.Mission_PIC_B_W-1024x683.jpeg
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    The DAAD IndiAlumni Netzwerk e.V. is an association that connects Germans going to India and Indians coming to Germany from diverse academic fields. The goal of the association is the promotion of social engagement in the German-Indian context and to foster continued cultural, economic and scientific exchange. For this purpose we organize annual meetings, various workshops, “Stammtisch”-Meet Ups and several other events – with support from the DAAD.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
